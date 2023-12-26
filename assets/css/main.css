@@ -210,7 +210,7 @@ body.modal-open {
   page dark
 -----------------------------*/
 .dark-currency {
-  background-color: #29013e;
+  background-color: #000;
 }
 
 /*-----------------------------
@@ -362,7 +362,7 @@ img {
 .logo img {
   vertical-align: bottom;
   margin-right: 0.5rem;
-  width: 27px;
+  width: 200px;
 }
 
 /*-----------------------------
@@ -536,7 +536,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fef8f2;
+  background-color: #000;
   overflow: hidden;
   position: fixed;
   z-index: 999999;
@@ -548,7 +548,6 @@ img {
   position: relative;
 }
 .loading_overlay .loader_logo .logo {
-  width: 40px;
   height: 40px;
   -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
   -moz-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
@@ -1541,7 +1540,7 @@ img {
 }
 
 .c-blue {
-  color: #165df5 !important;
+  color: #02F9F0 !important;
 }
 
 .c-gold {
@@ -3165,7 +3164,7 @@ header .navbar .navbar-brand {
 header .navbar .navbar-brand .logo {
   vertical-align: bottom;
   margin-right: 0.5rem;
-  width: 27px;
+  width: 200px;
 }
 header .navbar .navbar-collapse {
   margin-top: 0.4rem;
@@ -3213,7 +3212,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
     font-size: 18px !important;
   }
   header .navbar-brand .logo {
-    width: 24px !important;
+    width: 200px !important;
   }
   header .navbar-collapse {
     margin-left: 0 !important;
@@ -3837,13 +3836,13 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   demo_4
 -----------------------------*/
 .demo_4 {
-  background-color: #29013e !important;
+  background-color: #000 !important;
   height: 100% !important;
-  -webkit-background: radial-gradient(circle, #2f0247 0%, rgba(47, 2, 71, 0) 83%, #29013e 100%) !important;
-  -moz-background: radial-gradient(circle, #2f0247 0%, rgba(47, 2, 71, 0) 83%, #29013e 100%) !important;
-  -o-background: radial-gradient(circle, #2f0247 0%, rgba(47, 2, 71, 0) 83%, #29013e 100%) !important;
-  -ms-background: radial-gradient(circle, #2f0247 0%, rgba(47, 2, 71, 0) 83%, #29013e 100%) !important;
-  background: radial-gradient(circle, #2f0247 0%, rgba(47, 2, 71, 0) 83%, #29013e 100%) !important;
+  -webkit-background: #000 !important;
+  -moz-background: #000 !important;
+  -o-background: #000 !important;
+  -ms-background: #000 !important;
+  background: #000 !important;
 }
 .demo_4 .banner_title .offer {
   width: max-content;
@@ -9632,20 +9631,20 @@ software_web
   padding-bottom: 0;
 }
 .faq_demodark .block_faq .accordion .card {
-  background-color: #340e48;
+  background-color: #121113;
 }
 .faq_demodark .block_faq .accordion .card .card-header {
-  background-color: #340e48;
+  background-color: #121113;
   padding: 0;
 }
 .faq_demodark .block_faq .accordion .card .card-header.active {
-  border: 1px solid rgba(253, 79, 254, 0.18);
+  border: 1px solid rgba(79, 254, 238, 0.18);
   border-bottom: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 .faq_demodark .block_faq .accordion .card .card-header.active ~ div {
-  border: 1px solid rgba(253, 79, 254, 0.18);
+  border: 1px solid rgba(79, 254, 238, 0.18);
   border-top: 0;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
@@ -18102,17 +18101,17 @@ html:not(.no-js) [data-aos="fade-up"] {
   font-size: 16px;
   font-weight: 500;
   text-align: center;
-  color: #ffffff;
+  color: #000;
   margin: 0 0.75rem;
   display: inline-flex;
   justify-content: center;
 }
 .button--click .btn-token.c-gradient {
-  -webkit-background: linear-gradient(90deg, #6bb0f8 0%, #fd4ffe 100%) !important;
-  -moz-background: linear-gradient(90deg, #6bb0f8 0%, #fd4ffe 100%) !important;
-  -o-background: linear-gradient(90deg, #6bb0f8 0%, #fd4ffe 100%) !important;
-  -ms-background: linear-gradient(90deg, #6bb0f8 0%, #fd4ffe 100%) !important;
-  background: linear-gradient(90deg, #6bb0f8 0%, #fd4ffe 100%) !important;
+  -webkit-background: linear-gradient(90deg, #20a8a3 0%, #02F9F0 100%) !important;
+  -moz-background: linear-gradient(90deg, #20a8a3 0%, #02F9F0 100%) !important;
+  -o-background: linear-gradient(90deg, #20a8a3 0%, #02F9F0 100%) !important;
+  -ms-background: linear-gradient(90deg, #20a8a3 0%, #02F9F0 100%) !important;
+  background: linear-gradient(90deg, #20a8a3 0%, #02F9F0 100%) !important;
 }
 .button--click .btn-token.defalult {
   border: 1px solid rgba(255, 255, 255, 0.4);

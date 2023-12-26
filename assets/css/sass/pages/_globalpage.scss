@@ -449,7 +449,7 @@ img {
 }
 .loading_overlay {
   @include overlay;
-  background-color: #fef8f2;
+  background-color: #000;
   overflow: hidden;
   position: fixed;
   z-index: 999999;
